@@ -1,6 +1,6 @@
 function clear(elem) { 
-  elem.remove();
+  elem.innerHTML = "";
 }
 
-const elem = document.getElementById('elem');  
+const elem = document.getElementById("elem");  
 clear(elem);
